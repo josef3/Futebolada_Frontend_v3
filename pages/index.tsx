@@ -1,11 +1,13 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
+import DarkModeToggle from '../components/Navbar/DarkModeToggle';
+//----------------------------------------------------------
 
 const Home: NextPage = () => {
 	return (
-		<h1 className="text-3xl font-bold underline">
-			Hello world!
-		</h1>
-	)
-}
+		<>
+			<DarkModeToggle />
+		</>
+	);
+};
 
-export default Home
+export default Home;
